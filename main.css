@@ -1,0 +1,134 @@
+/* --------------- GENERAL SETTINGS ---------------------------------------------- */
+
+html {
+  background-color: #fff !important;
+}
+
+body {
+  max-width: 90%;
+  margin: auto !important;
+  background-color: #fff8f4!important;
+}
+
+/* --------------- HEADER ---------------------------------------------- */
+.navbar {
+  /* background-color: #cccccc !important; */
+  background: linear-gradient(220.55deg, #181818 0%, #565656 100%);
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+/* --------------- HERO ---------------------------------------------- */
+
+.hero {
+  width: 100%;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
+}
+
+
+.hero h1 {
+  color: rgb(0, 19, 61);
+  text-shadow: 2px 2px #c4fcfc;
+  /* text-shadow: 2px 2px rgb(195, 209, 255); */
+}
+
+#hero_btn {
+  background-color: rgba(255, 255, 255, 0.24);
+  box-shadow:  2px -2px 4px #b5b5b5,
+             -2px 2px 4px #ffffff;
+}
+
+#hero_btn:hover {
+  box-shadow:  4px -4px 8px #b5b5b5,
+             -4px 4px 8px #ffffff;
+}
+
+#hero_btn:active {
+  border: none;
+  box-shadow: inset 3px -3px 8px #b8b8b8,
+            inset -3px 3px 8px #ffffff;
+}
+
+/* --------------- PROJECTS ---------------------------------------------- */
+
+#projects {
+  background: linear-gradient(220.55deg, #ad60e7 0%, #ffa959 100%);
+}
+
+#projects a {
+  color: mediumblue;
+  text-decoration: none;
+}
+
+#projects a:hover {
+  color: #272e00;
+  text-decoration: underline;
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/* --------------- SOCIAL ---------------------------------------------- */
+
+#social img {
+  border: none;
+  min-height: 30%;
+  min-width: 30%;
+}
+
+#social a {
+  text-decoration: none;
+}
+
+#social a:hover {
+  text-decoration: underline;
+}
+
+/* --------------- CONTACT ---------------------------------------------- */
+
+#contact {
+  background: radial-gradient(circle, rgba(82, 205, 207, 1) 28%, rgba(0, 163, 210, 1) 100%);
+}
+
+/* --------------- FOOTER ---------------------------------------------- */
+
+footer {
+  background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+  min-height: 280px;
+}
+
+.footer {
+  min-height: 280px;
+}
+
+footer img {
+  min-width: 40%;
+  min-height: 40%;
+}
+
+footer h4 {
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

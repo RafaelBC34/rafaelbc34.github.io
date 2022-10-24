@@ -53,8 +53,8 @@ body {
 
 #hero_btn:active {
   border: none;
-  box-shadow: inset 3px -3px 8px #b8b8b8,
-            inset -3px 3px 8px #ffffff;
+  box-shadow: 1px -1px 2px #b8b8b8,
+            -1px 1px 2px #ffffff;
 }
 
 /* --------------- PROJECTS ---------------------------------------------- */
@@ -69,7 +69,7 @@ body {
 }
 
 #projects a:hover {
-  color: #272e00;
+  color: #000c79;
   text-decoration: underline;
 }
 
